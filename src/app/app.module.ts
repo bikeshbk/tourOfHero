@@ -4,6 +4,7 @@ import {FormsModule} from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
 import {HttpClientInMemoryWebApiModule} from 'angular-in-memory-web-api';
 import {HeroSearchComponent} from './hero-search/hero-search.component';
+import {ClickMeComponent} from './click-me/click-me.component';
 
 import {AppComponent} from './app.component';
 import {HeroesComponent} from './heroes/heroes.component';
@@ -20,7 +21,8 @@ import {InMemoryDataService} from './heroes/in-memory-data.service';
     HeroDetailComponent,
     MessageComponent,
     DashboardComponent,
-    HeroSearchComponent
+    HeroSearchComponent,
+    ClickMeComponent
   ],
   imports: [
     BrowserModule,
